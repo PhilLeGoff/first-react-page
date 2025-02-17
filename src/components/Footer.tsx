@@ -1,5 +1,4 @@
-// src/components/Footer.tsx
-import './Footer.css' // Optional: Create a separate CSS file for Footer styles if desired
+import './Footer.css'
 
 const Footer = () => {
   return (
