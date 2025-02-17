@@ -1,0 +1,66 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header styles */
+.header {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav {
+  margin-top: 1rem;
+}
+
+.nav a {
+  margin: 0 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content styles */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tagline {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+  max-width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}

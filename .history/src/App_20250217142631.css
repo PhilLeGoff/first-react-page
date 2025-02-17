@@ -1,0 +1,27 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tagline {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+  max-width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
