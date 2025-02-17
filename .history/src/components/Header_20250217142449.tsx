@@ -1,4 +1,5 @@
-import './Header.css'
+// src/components/Header.tsx
+import './Header.css' // Optional: Create a separate CSS file for Header styles if desired
 
 const Header = () => {
   return (
